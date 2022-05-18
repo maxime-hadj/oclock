@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id = "container1">
+    <h1>Horloge</h1>
+        <div id = "clock"></div>
+    <h2>Alarme</h2>
+        <div><input id ="alarm" name = "alarmTime" type ="datetime-local"></div>
+        <div><input id ="message" type ="text" placeholder ="Message..."></div>
+        <button id ="aSet">Set</button>
+        <button id ="aClear">Clear</button>
+</div>
+    <div id ="alarmC">
+        <div id ="alarming"></div>
+    </div>
+
+<div id = "container2">
+    <h1>Chrono</h1>
+        <div id ="chrono">00:00</div>
+        <button id ="start">Start</button>
+        <button id ="stop">Stop</button>
+        <button id ="reset">Reset</button>
+        <button id ="lap">Lap</button>
+        <!--<ul id="lap"></ul>-->
+</div>
+
+<div id = "container3">
+    <h1>Minuteur</h1>
+        <div id="timerContainer">
+            <input id="bHours" type="number" max="99" min="00" value="00" class="time"> :
+            <input id="bMinutes" type="number" max="60" min="00" value="00" class="time"> :
+            <input id="bSeconds" type="number" max="60" min="00" value="00" class="time">
+        </div>
+        <button id ="bStart">Start</button>
+        <button id ="bReset">Reset</button>
+</div>
+
+
+</body>
+</html>

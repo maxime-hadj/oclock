@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui;
+    background: darkgrey;
+    color: white;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#lap ul{
+    display: flex;
+    width: 25%;
+    align-items: flex-end;
+}
