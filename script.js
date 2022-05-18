@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function clearAlarm(){
         aClear.addEventListener("click",() =>{
-        audio.stop()
+        audio.pause()
         if(alarmTimeout){
             clearTimeout(alarmTimeout)
             alert('Alarm cleared !')
